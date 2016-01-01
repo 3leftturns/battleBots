@@ -10,10 +10,12 @@ An HTML building guide has been included as well.
 
 Not all Lego elements used in the project were available for visualization in Lego Digital Designer. Appropriate substitutions are noted:
 
-Each tank model was made from 2 sets of 42032 Technic Compact Tracked Loader. In addition, 4 3648 24-tooth gears are needed. 2 of them are in the Tracked Loader set. Gear assortments are widely available on Amazon and Ebay.
-The plan drawing does not show the tank tread wrapped around the wheel assemblies due to limitations in the software.
-All 4 3x3 1/2 width right angle brackets in the drawing are actually 3x3 1/2 width curved brackets as supplied in the Compact Loader sets.
-I have attempted to make the colors match the set but the software does not allow all colors.
+* Each tank model was made from 2 sets of 42032 Technic Compact Tracked Loader. 
+* In addition, 4 3648 24-tooth gears are needed. 2 of them are in the Tracked Loader set. Gear assortments are widely available on Amazon and Ebay.
+* The plan drawing does not show the tank tread wrapped around the wheel assemblies due to limitations in the software.
+* All 4 3x3 1/2 width right angle brackets in the drawing are actually 3x3 1/2 width curved brackets as supplied in the Compact Loader sets.
+
+*I have attempted to make the colors match the set but the software does not allow all colors.*
 
 The RED 1 width cross axle couplings on each of the drive wheel axles need special attention. (The drive axles have the 24T gears on them)
 You will need to epoxy your servo horn to the coupling on both sides.
