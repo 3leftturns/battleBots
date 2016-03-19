@@ -1,21 +1,26 @@
-void setup() {
-
     Servo leftMotor;
     Servo rightMotor;
     Servo frontTurret;
-    
+
+void setup() {
+
     leftMotor.attach(D0);
     rightMotor.attach(D1);
     frontTurret.attach(D2);
+    
+
 }
 
 void loop() {
 //Robot control goes here
 //call functions below to move robot
+motorForward();
+delay(3000);
+motorLeft();
+delay(1000);
+
 
 }
-
-
 
 void motorForward() {
     leftMotor.write(45);
