@@ -1,0 +1,71 @@
+    Servo leftMotor;
+    Servo rightMotor;
+    Servo frontTurret;
+
+void setup() {
+
+    leftMotor.attach(D0);
+    rightMotor.attach(D1);
+    frontTurret.attach(D2);
+    
+
+}
+
+void loop() {
+//Robot control goes here
+//call functions below to move robot
+// motorForward();
+// delay(3000);
+// motorLeft();
+// delay(1000);
+turretCenter();
+
+motorForward();
+int i = 0;
+for (i = 0; i <= 180; i++) {
+    frontTurret.write(i);
+    delay(15);
+    if (i == 180) {
+        break;
+    }
+}
+
+for (i = 180; i >=0; i--){
+    frontTurret.write(i);
+    delay(15);
+    if (i == 0) {
+        break;
+    }
+}
+
+}
+
+void motorForward() {
+    leftMotor.write(45);
+    rightMotor.write(134);
+}
+
+void motorReverse() {
+    leftMotor.write(135);
+    rightMotor.write(45);
+}
+
+void motorLeft() {
+    leftMotor.write(45);
+    rightMotor.write(45);
+}
+
+void motorRight() {
+    leftMotor.write(135);
+    rightMotor.write(135);
+}
+
+void motorStop() {
+    leftMotor.write(90);
+    rightMotor.write(90);
+}
+
+void turretCenter() {
+    frontTurret.write(90);
+    
+}
